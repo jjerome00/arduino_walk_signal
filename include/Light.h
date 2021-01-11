@@ -5,7 +5,7 @@
 
 enum state_enum {WALK, BLINK, DONTWALK};
 
-// convience function to identify an enum
+// convenience function to identify an enum
 static inline const char *stringFromState(enum state_enum f) {
     static const char *strings[] = { "walk", "blink", "dontwalk" };
     return strings[f];
