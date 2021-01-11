@@ -13,12 +13,14 @@ The hardware setup is fairly simple.
 Arduino pins:
 * 1 digital pin for relay controlling the light bulb for walk
 * 1 digital pin for relay controlling the light bulb for dont walk
-* 2-channel Relay requires 5v + ground
+* 2-channel Relay requires 5V + Gnd pins
 
 ## Tools
 
-* visual studio code
-* processingio
+* Visual Studio Code - https://code.visualstudio.com/
+* PlatformIO - https://platformio.org/
+
+This is the first time I tried vscode + platformio for Arduino development. I may have forgotten something. Don't assume I have set everything up correctly.
 
 ## Code
 
