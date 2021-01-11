@@ -1,13 +1,9 @@
 #include <Arduino.h>
 #include "Light.h"
 
-// unsigned long walk_time = 30000;
-// unsigned long blink_time = 15000;
-// unsigned long dont_time = 30000;
-
-unsigned long walk_time = 4000;
-unsigned long blink_time = 4000;
-unsigned long dont_time = 4000;
+unsigned long walk_time = 30000;
+unsigned long blink_time = 15000;
+unsigned long dont_time = 30000;
 
 state_enum currentState = WALK;
 
