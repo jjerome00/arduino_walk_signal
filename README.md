@@ -41,3 +41,8 @@ Light()
 * Pass all options into the constructor
 * Option for the light to be for a solid burn or blinking
 * Uses `millis()` to determine it's current settings so as to not block the thread
+
+
+## Sample video
+
+https://www.youtube.com/watch?v=zEAfzH_UlCo
