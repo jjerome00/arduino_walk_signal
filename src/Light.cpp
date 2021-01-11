@@ -114,26 +114,13 @@ state_enum Light::updateBlinkState(unsigned long currentMillis) {
 void Light::updateBlinking(unsigned long currentMillis) {
     if (currentMillis - blinkMillis >= blinkInterval) {
         if (pinState == HIGH) {
-            logMessage("turn on");
             pinState = LOW;
         } else {
-            logMessage("turn off");
             pinState = HIGH;
         }
         blinkMillis = currentMillis;
         digitalWrite(pin, pinState);
     }
-    
-    // if (pinState == HIGH && currentMillis - blinkMillis >= blinkInterval) {
-    //     pinState = LOW;
-    //     blinkMillis = currentMillis;
-    //     digitalWrite(pin, pinState);
-    // } 
-    // else if (pinState == LOW && currentMillis - blinkMillis >= blinkInterval) {
-    //     pinState = HIGH;
-    //     blinkMillis = currentMillis;
-    //     digitalWrite(pin, pinState);
-    // }
 }
 
 /**
